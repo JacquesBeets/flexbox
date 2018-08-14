@@ -1,15 +1,50 @@
-*{
-    font-family: verdana;
-    margin: 0;
+* {
+  font-family: verdana;
+  margin: 0;
 }
 
-body{
-    background: #eee;
+body {
+  background: #eee;
 }
 
-.wrapper{
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
+.flex-container {
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.box {
+  height: 100px;
+  /* width: 200px; */
+  /* flex-grow: 1; */
+  flex: 1 0 200px; /* flex-grow, flex-shrink, flex-basis */
+}
+
+.one {
+  background-color: red;
+  /* flex-grow: 4; */
+  /* flex-shrink: 1; */
+  /* flex-basis: 100px; */
+}
+
+.two {
+  background-color: blue;
+  /* flex-grow: 6; */
+  /* flex-shrink: 2; */
+  /* flex-basis: 200px; */
+}
+
+.three {
+  background-color: green;
+  /* flex-grow: 2; */
+  /* flex-shrink: 3; */
+  /* flex-basis: 300px; */
+}
