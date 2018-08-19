@@ -19,32 +19,25 @@ body {
   flex-wrap: wrap;
   background-color: white;
   border: 1px solid black;
+  flex-flow: column;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
-  height: 100px;
-  /* width: 200px; */
-  /* flex-grow: 1; */
-  flex: 1 0 200px; /* flex-grow, flex-shrink, flex-basis */
+  width: 100px;
+  flex: 0 0 100px; /* flex-grow, flex-shrink, flex-basis */
 }
 
 .one {
   background-color: red;
-  /* flex-grow: 4; */
-  /* flex-shrink: 1; */
-  /* flex-basis: 100px; */
 }
 
 .two {
   background-color: blue;
-  /* flex-grow: 6; */
-  /* flex-shrink: 2; */
-  /* flex-basis: 200px; */
 }
 
 .three {
   background-color: green;
-  /* flex-grow: 2; */
-  /* flex-shrink: 3; */
-  /* flex-basis: 300px; */
 }
